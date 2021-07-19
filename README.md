@@ -21,6 +21,8 @@ Após baixar o projeto .zip contendo as pastas Frontend e Backend:
   
   • Após o start de ambos, uma página web será automáticamente aberta em seu navegador, e o servidor backend estará rodando em seu terminal.
   
+  **Para utilizar a plataforma em ambiente mobile, em caso de utilizar a Toggle Device Toolbar do navegador, após selecionar a resolução do dispositivo móvel, recarregue a página para aplicar os devidos ajustes responsivos.**
+  
 ## Imagens da plataforma.
 
 ### Página de login.
