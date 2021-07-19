@@ -23,7 +23,7 @@ Após baixar o projeto .zip contendo as pastas Frontend e Backend:
   
   **Para utilizar a plataforma em ambiente mobile, em caso de utilizar a Toggle Device Toolbar do navegador, após selecionar a resolução do dispositivo móvel, recarregue a página para aplicar os devidos ajustes responsivos.**
   
-## Imagens da plataforma.
+## Imagens da plataforma desktop.
 
 ### Página de login.
 ![page1](https://user-images.githubusercontent.com/62761711/126225183-0ab2aafb-191e-4fb0-bc36-014c8cb01221.png)
@@ -35,3 +35,17 @@ Após baixar o projeto .zip contendo as pastas Frontend e Backend:
 ![page4](https://user-images.githubusercontent.com/62761711/126225187-36879818-1301-4f63-a8aa-2e554a3a7328.png)
 ### Modal referente informações detalhadas do repositório escolhido.
 ![page5](https://user-images.githubusercontent.com/62761711/126225188-bf8fd9c7-7aee-457d-a5b7-aeeef4b9ad3f.png)
+  
+## Imagens da plataforma mobile.
+
+### Página de login.
+![page1_mobile](https://user-images.githubusercontent.com/62761711/126228263-11bdcdca-18a9-4e03-bf2b-baf0cf5da69c.png)
+### Página de busca de usuário do GitHub.
+![page2_mobile](https://user-images.githubusercontent.com/62761711/126228308-0281f2c4-c67b-4248-8082-8314c2f5c558.png)
+### Página contendo as informações referente ao usuário pesquisado.
+![page3_mobile](https://user-images.githubusercontent.com/62761711/126228027-266e61c5-510e-4c97-84fd-c16bfd0cd92c.png)
+### Listagem de seus repositórios.
+![page4_mobile](https://user-images.githubusercontent.com/62761711/126228028-0b589eb9-8730-4dbc-82fb-f603bdc1450e.png)
+### Modal referente informações detalhadas do repositório escolhido.
+![page5_mobile](https://user-images.githubusercontent.com/62761711/126228323-cf527717-bb5b-4eab-9188-caed9de49547.png)
+
