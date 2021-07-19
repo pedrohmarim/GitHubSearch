@@ -1,0 +1,65 @@
+.repoTemplate
+    display: grid
+    grid-template-columns: 33% 33% 33%
+
+.scaleContainer
+    transform: scale(0.9)
+
+.scaleContainer h1
+    color: $light
+
+.repoContainer
+    font-size: 15pt
+    position: relative
+    margin: 10px
+    border: solid 1px $light
+    border-radius: 5px
+    padding: 0% 10%
+    height: 180px
+    transform: scale(0.9)
+    transition: all 0.2s
+    cursor: pointer
+    color: $light
+
+.repoContainer:hover
+    transform: scale(1)
+
+.repoContainer p
+    margin: 0
+    padding: 0
+
+.folderIcon
+    position: absolute
+    right: 0
+    margin: 10px
+
+.repoLanguage
+    color: $light
+    margin: 10px !important
+    position: absolute
+    right: 0
+    bottom: 0
+
+.backArrow
+    color: $light
+    font-size: 18pt
+    position: absolute
+    left: 30px
+    margin-top: 30px
+    cursor: pointer
+    z-index: 100
+
+.backArrow:hover
+    color: $light
+    border-bottom: solid 1px #fff
+
+#viewOnGitBtn
+    width: 100%
+    background: $dark
+    color: $light
+    height: 50px
+
+@media screen and ( max-width: 500px  )
+    .repoTemplate
+        display: flex
+        flex-direction: column

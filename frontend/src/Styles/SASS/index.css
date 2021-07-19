@@ -1,0 +1,291 @@
+.centered {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MuiFormLabel-asterisk {
+  display: none;
+}
+
+.MuiInputLabel-root, .MuiInputBase-input {
+  color: #dddddd !important;
+}
+
+.MuiInput-underline {
+  border-bottom: solid 1px #fff;
+}
+
+#loginForm {
+  border-radius: 5px;
+  padding: 8% 5%;
+  border: solid 1px #fce1e127;
+  -webkit-animation: formAnimation ease-out;
+          animation: formAnimation ease-out;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+button {
+  height: 40px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 75%;
+}
+
+#submitLoginForm {
+  font-size: 15pt;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@-webkit-keyframes formAnimation {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes formAnimation {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+header {
+  width: 100%;
+  border-bottom: solid 1px #ffffff23;
+}
+
+.fixedHeader {
+  position: fixed !important;
+  z-index: 200;
+}
+
+.solidHeader {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #090c10;
+}
+
+#logoutBtn {
+  font-size: 13pt;
+  width: 120px;
+  height: 35px;
+}
+
+.header .nav-link {
+  font-weight: 600;
+}
+
+.header .dropdown:hover > .dropdown-menu {
+  display: block;
+  margin-left: -90px !important;
+  position: absolute;
+}
+
+.header .dropdown-menu {
+  padding: 0;
+}
+
+.header .dropdown-item {
+  font-weight: 600;
+  font-size: 12.5pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .dropdown-item:hover {
+  background: #44466046;
+}
+
+.dropdown span {
+  color: #dddddd;
+}
+
+.dropdown span:hover {
+  color: #dddddd;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    border-bottom: none;
+  }
+}
+
+#userDataContainer {
+  -webkit-animation: formAnimation ease-out;
+          animation: formAnimation ease-out;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  padding-bottom: 20px !important;
+  width: 100% !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#submitUserToSearchBtn {
+  width: 100%;
+  margin-top: 25px;
+}
+
+#searchedUserImg {
+  width: 350px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+strong {
+  margin-right: 6px;
+}
+
+#showRepo {
+  width: 100%;
+}
+
+.searchContainer h1 {
+  color: #dddddd !important;
+}
+
+h1, h2, p, span {
+  color: #dddddd;
+}
+
+.infoUserContainer {
+  margin-top: -20px;
+  -webkit-box-shadow: 0 0 50px 60px #090c10;
+          box-shadow: 0 0 50px 60px #090c10;
+  background-color: #090c10;
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 500px) {
+  #searchedUserImg {
+    border-radius: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.repoTemplate {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+}
+
+.scaleContainer {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.scaleContainer h1 {
+  color: #dddddd;
+}
+
+.repoContainer {
+  font-size: 15pt;
+  position: relative;
+  margin: 10px;
+  border: solid 1px #dddddd;
+  border-radius: 5px;
+  padding: 0% 10%;
+  height: 180px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+  color: #dddddd;
+}
+
+.repoContainer:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.repoContainer p {
+  margin: 0;
+  padding: 0;
+}
+
+.folderIcon {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+}
+
+.repoLanguage {
+  color: #dddddd;
+  margin: 10px !important;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.backArrow {
+  color: #dddddd;
+  font-size: 18pt;
+  position: absolute;
+  left: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.backArrow:hover {
+  color: #dddddd;
+  border-bottom: solid 1px #fff;
+}
+
+#viewOnGitBtn {
+  width: 100%;
+  background: #000;
+  color: #dddddd;
+  height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .repoTemplate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=index.css.map */
