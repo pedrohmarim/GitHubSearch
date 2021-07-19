@@ -12,7 +12,7 @@ Após baixar o projeto .zip contendo as pastas Frontend e Backend:
    ![npm_install_backend](https://user-images.githubusercontent.com/62761711/126224763-03fb1082-10b2-4aa6-b22c-4345dc847c0a.png)
    ![npm_install_backend2](https://user-images.githubusercontent.com/62761711/126224771-a6b1f524-6da4-4b9c-9106-2a33c22c09e0.png)
     
-  *Caso o terminal identifique vunerabilidades após a instalação, rode o comando **npm audit fix***.
+  *Caso o terminal identifique vulnerabilidades após a instalação, rode o comando **npm audit fix***.
   
   • Feita a instalação das dependências necessárias, pelo terminal, você ira rodar o comando **npm start** em ambas as pastas, tanto na */frontend* quanto */backend*.  
   
